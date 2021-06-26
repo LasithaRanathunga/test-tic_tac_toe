@@ -1,0 +1,52 @@
+.Winning {
+  position: absolute;
+  z-index: 10;
+  min-width: 1232px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Massage {
+  margin: auto;
+  width: 50rem;
+  height: 30rem;
+  border-radius: 20px;
+  background-color: #F6F6F6;
+}
+
+.Massage h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-weight: 400;
+  background: -webkit-linear-gradient(#1762A7, #BC3A80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.Massage p {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+
+.Massage button {
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #BC3A80;
+  color: #fff;
+  font-size: 1.3rem;
+}

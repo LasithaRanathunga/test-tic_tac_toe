@@ -1,0 +1,38 @@
+.SelectMode {
+  padding-top: 2rem;
+}
+
+.SelectMode h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.Msg {
+  display: flex;
+  margin-top: 9rem;
+  align-items: center;
+}
+
+.Arrow {
+  width: 3rem;
+  height: 3rem;
+  border: 7px solid;
+  border-image-source: linear-gradient(#BC3A80, #1762A7);
+  border-image-slice: 1;
+  border-radius: 5px;
+  border-left: 0;
+  border-top: 0;
+  transform: rotate(135deg);
+}
+
+.Msg p {
+  font-size: 4rem;
+  display: inline;
+  margin-left: 1rem;
+  background: -webkit-linear-gradient(#1762A7, #BC3A80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

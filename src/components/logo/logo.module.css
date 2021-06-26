@@ -1,0 +1,15 @@
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Name {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-left: 1.7rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#1762A7, #BC3A80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

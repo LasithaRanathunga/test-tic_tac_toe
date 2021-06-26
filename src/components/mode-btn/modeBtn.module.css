@@ -1,0 +1,12 @@
+.Btn {
+  display: block;
+  background: none;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  outline: none;
+}

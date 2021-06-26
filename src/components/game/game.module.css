@@ -1,0 +1,143 @@
+.GameData {
+  position: absolute;
+  z-index: 1;
+}
+
+.Game {
+  border-top-right-radius: 20px;
+  padding-top: 1rem;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Game h1 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.Player {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.Player p {
+  font-size: 1.4rem;
+}
+
+.Player p span {
+  margin-left: 1.3rem;
+  font-weight: bold;
+}
+
+.Bord {
+  display: grid;
+  width: 345px;
+  grid-template-columns: auto auto auto;
+  margin-top: 2rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8, .box_9 {
+  border: 3px solid  #5A5A5A;
+  height: 115px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.box_1 {
+  border-top: none;
+  border-left: none;
+  color: aqua;
+}
+
+.box_2 {
+  border-top: none;
+}
+
+.box_3 {
+  border-top: none;
+  border-right: none;
+}
+
+.box_4 {
+  border-left: none;
+}
+
+.box_6 {
+  border-right: none;
+}
+
+.box_7 {
+  border-bottom: none;
+  border-left: none;
+}
+
+.box_8 {
+  border-bottom: none;
+}
+
+.box_9 {
+  border-bottom: none;
+  border-right: none;
+}
+
+.Background {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.C_1 {
+  position: relative;
+  height: 230px;
+  width: 230px;
+  top: 130px;
+  left: 60px;
+  background-color:rgba(43, 87, 200, 0.1);
+  border-radius: 50%;
+}
+
+.C_2 {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  top: 200px;
+  left: 630px;
+  background-color:rgba(43, 87, 200, 0.1);
+  border-radius: 50%;
+}
+
+.C_3 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  top: -500px;
+  left: 600px;
+  background-color:rgba(120, 78, 174, 0.1);
+  border-radius: 50%;
+}
+
+.X {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.O {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

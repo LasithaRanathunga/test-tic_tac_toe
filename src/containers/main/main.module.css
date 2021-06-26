@@ -1,0 +1,23 @@
+* {
+  color: #5A5A5A;
+}
+
+.Main {
+  min-width: 1232px;
+  height: 650px;
+  margin: auto;
+  background-color:#FCFCFC;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #888888;
+  display: flex;
+}
+
+.leftdiv {
+  width: 30%;
+}
+
+.rightdiv {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}

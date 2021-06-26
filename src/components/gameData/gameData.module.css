@@ -1,0 +1,19 @@
+.GameData {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.Players {
+  margin-top: 8rem;
+  margin-left: 1rem;
+}
+
+.PlayerOne, .PlayerTow {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.PlayerTow {
+  margin-top: 1.5rem;
+}
